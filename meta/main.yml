@@ -1,6 +1,11 @@
 galaxy_info:
+<<<<<<< HEAD
   author: your name
   description: your role description
+=======
+  author: raeeduard
+  description: install vector role
+>>>>>>> 10896d7247e113189f1d314bd5330c2aca704b7a
   company: your company (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -14,9 +19,15 @@ galaxy_info:
   # - GPL-3.0-only
   # - Apache-2.0
   # - CC-BY-4.0
+<<<<<<< HEAD
   license: license (GPL-2.0-or-later, MIT, etc)
 
   min_ansible_version: 2.1
+=======
+  license: "MIT"
+
+  min_ansible_version: "2.9"
+>>>>>>> 10896d7247e113189f1d314bd5330c2aca704b7a
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
@@ -27,6 +38,7 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
+<<<<<<< HEAD
   # platforms:
   # - name: Fedora
   #   versions:
@@ -38,6 +50,13 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+=======
+  platforms:
+    - name: "EL"
+      versions: ["7", "8"]
+    - name: "Ubuntu"
+      versions: ["20.04", "22.04"]
+>>>>>>> 10896d7247e113189f1d314bd5330c2aca704b7a
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
